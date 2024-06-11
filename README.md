@@ -1,5 +1,6 @@
 # Facebook Page Scraper
 This script was tested on the page I am an admin of. If you use to scrape public pages Let me know how it goes for you.
+
 A Python script with a GUI to scrape posts from a Facebook page using the Facebook Graph API. This tool allows you to filter posts by creation date and save the data to an Excel file.
 
 ## Features
