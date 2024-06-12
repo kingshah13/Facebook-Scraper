@@ -1,12 +1,14 @@
 # Facebook Page Scraper
 This script is created to scrape pages you are owner or admin of. It does not scrape public pages.
 
-A Python script with a GUI to scrape posts from a Facebook page using the Facebook Graph API. This tool allows you to filter posts by creation date and save the data to an Excel file.
+A user-friendly GUI application to scrape public Facebook pages using the Facebook Graph API. This tool allows you to configure the page, date range, and data fields to be scraped, and saves the data into an Excel file.
 
 ## Features
-- GUI for easy input of Access Token, Page ID, date range, and fields to scrape.
-- Fetch posts from a specified Facebook page within a date range.
-- Save the scraped data to an Excel file.
+- Intuitive GUI: Easily input your Access Token, Page ID, date range, and select data fields with checkboxes.
+- Rate Limiting: Manage the request rate to stay within Facebook's rate limits.
+- Dark and Light Mode: Automatically adapts to your Windows theme.
+- Data Export: Save the scraped data to an Excel file with a custom name.
+- Remember Access Token: Option to securely save your access token for future use.
 
 ## Prerequisites
 
@@ -24,7 +26,7 @@ A Python script with a GUI to scrape posts from a Facebook page using the Facebo
    - Open a terminal or command prompt.
    - Run the following command to clone the repository:
      ```sh
-     git clone https://github.com/your-username/Facebook-Scraper.git
+     git clone https://github.com/kingshah13/Facebook-Scraper.git
      ```
    - Navigate to the cloned directory:
      ```sh
@@ -47,12 +49,15 @@ A Python script with a GUI to scrape posts from a Facebook page using the Facebo
      ```
 
 2. **Fill in the GUI Fields**:
-   - **Access Token**: Enter your Facebook Graph API access token.
-   - **Page ID**: Enter the ID of the Facebook page you want to scrape.
-   - **Since (YYYY-MM-DD)**: Enter the start date for the posts you want to scrape.
-   - **Until (YYYY-MM-DD)**: Enter the end date for the posts you want to scrape.
-   - **Fields to Scrape**: Select the fields you want to include in the scraped data.
-   - Click the "Run Scraper" button.
+- **Access Token**: Your Facebook Graph API access token.
+- **Page ID**: The ID of the Facebook page you want to scrape.
+- **Since**: Start date (YYYY-MM-DD) to scrape posts from.
+- **Until**: End date (YYYY-MM-DD) to scrape posts until.
+- **Save As**: Filename to save the scraped data.
+- **Rate Limit**: Number of requests per second (up to 1000).
+- **Remember Access Token**: Checkbox to save the access token for future use.
+- **Check All**: Checkbox to select all data fields.
+- **Data Fields**: Select individual fields to scrape.
 
 3. **Output**:
    - The data will be saved to an Excel file named `facebook_posts.xlsx` in the same directory.
@@ -68,6 +73,3 @@ A Python script with a GUI to scrape posts from a Facebook page using the Facebo
 
 ## License
 This project is licensed under the MIT License.
-
-## Contributions
-Contributions are welcome! Feel free to open an issue or submit a pull request.
