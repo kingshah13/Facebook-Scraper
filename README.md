@@ -59,9 +59,6 @@ A user-friendly GUI application to scrape public Facebook pages using the Facebo
 - **Check All**: Checkbox to select all data fields.
 - **Data Fields**: Select individual fields to scrape.
 
-3. **Output**:
-   - The data will be saved to an Excel file named `facebook_posts.xlsx` in the same directory.
-
 ## Notes
 - Ensure your access token is kept secure and not shared publicly.
 - The date format should be `YYYY-MM-DD`.
