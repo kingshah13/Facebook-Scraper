@@ -1,7 +1,7 @@
 # Facebook Page Scraper
 This script is created to scrape pages you are owner or admin of. It does not scrape public pages.
 
-A user-friendly GUI application to scrape public Facebook pages using the Facebook Graph API. This tool allows you to configure the page, date range, and data fields to be scraped, and saves the data into an Excel file.
+A user-friendly GUI application to scrape Facebook pages using the Facebook Graph API. This tool allows you to configure the page, date range, and data fields to be scraped, and saves the data into an Excel file.
 
 ## Features
 - Intuitive GUI: Easily input your Access Token, Page ID, date range, and select data fields with checkboxes.
